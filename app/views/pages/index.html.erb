@@ -1,0 +1,8 @@
+<div class="page_header">
+  <h1>Welcome!</h1>
+
+  <% if can? :index, Project %>
+    <%= link_to 'Projects', projects_path, class: 'btn btn-lg btn-primary' %>
+  <% end %>
+
+</div>
